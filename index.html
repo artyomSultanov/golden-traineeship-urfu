@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header__wrapper">
+        <nav class="header__nav">
+          <img
+            class="header__logo"
+            src="/images/logo_urfu.png"
+            alt="Логотип УрФУ"
+          />
+          <ul class="header__menu">
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Об институте</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Как поступить</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">FAQ</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Программы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <a href="#" class="btn__cta header__cta">Хочу поступить</a>
+        </nav>
+
+        <div class="header__content">
+          <div class="header__info">
+            <h1>Магистратура</h1>
+            <h2>
+              Химико-технологический <br />
+              институт УрФУ
+            </h2>
+          </div>
+          <div class="header__program">
+            <div class="header__program-wrapper">
+              <p class="header__program-info">
+                Практико-ориентированное <br />
+                образование через прикладную <br />
+                и фундаментальную науку <br />
+                мирового уровня
+              </p>
+              <a class="header__program-link" href="#">Смотреть программы</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__img-line"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section__institute">
+        <div class="section__institute-wrapper">
+          <header class="institute__header">
+            <h1 class="institute__header-topic">Об институте</h1>
+            <p class="institute__header-info">
+              ХТИ - это глубокие научные и образовательные традиции, а также
+              высококвалифицированные сотрудники, обладающие богатым опытом в
+              решении разноплановых фундаментальных и прикладных задач в области
+              современной химии и химической технологии.
+            </p>
+            <a class="institute__header-link" href="#"
+              >Посетить сайт института</a
+            >
+            <br />
+            <a class="btn__cta institute__header-cta" href="#">Поступить</a>
+          </header>
+          <div class="institute__content">
+            <div class="institute__content-images">
+              <img
+                class="institute__content-img"
+                src="/images/chemist-1.png"
+                alt="Химик за работой"
+              />
+              <img
+                class="institute__content-img"
+                src="/images/chemist-2.png"
+                alt="Химик за работой"
+              />
+            </div>
+            <div class="institute__content-stats">
+              <div class="content-stats__wrapper">
+                <p class="content-stats__number">25</p>
+                <span class="content-stats__element"
+                  >Российских и зарубежных академических партнеров</span
+                >
+              </div>
+              <div class="content-stats__wrapper">
+                <p class="content-stats__number">20</p>
+                <span class="content-stats__element"
+                  >Крупных индустриальных партнеров</span
+                >
+              </div>
+              <div class="content-stats__wrapper">
+                <p class="content-stats__number">150</p>
+                <span class="content-stats__element"
+                  >Крупных индустриальных партнеров</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="admission">
+        <div class="section__admission-wrapper">
+          <header class="admission__header">
+            <h1 class="admission__header-topic">Как поступить?</h1>
+            <div class="admission__header-info">
+              <p
+                class="admission__header-budget admission__basis admission__basis_active"
+              >
+                Бюджет
+              </p>
+              <label class="admission__checkbox">
+                <input type="checkbox" name="training" id="basis-checkbox" />
+                <span class="checkbox__container"></span>
+              </label>
+              <p class="admission__header-contract admission__basis">
+                Контракт
+              </p>
+            </div>
+          </header>
+          <div id="admission__basis">
+            <div class="admission__wrapper">
+              <div class="admission__step">
+                <div class="step__task">
+                  <div class="step__task-number"><span>1</span></div>
+                  <p class="step__task-info">Узнайте о поступлении</p>
+                </div>
+                <div class="step__block">
+                  <p class="step__subtask">Правила приема</p>
+                  <p class="step__subtask">Сроки подачи документов</p>
+                  <p class="step__subtask-info">Очная форма обучения:</p>
+                  <p class="step__subtask-date">20.06 - 08.08</p>
+                  <p class="step__subtask-info">Очно-заочная форма обучения:</p>
+                  <p class="step__subtask-date">20.06 - 08.08</p>
+                </div>
+              </div>
+              <div class="admission__step">
+                <div class="step__task">
+                  <div class="step__task-number"><span>2</span></div>
+                  <p class="step__task-info">
+                    Выберите образовательную программу
+                  </p>
+                </div>
+                <div class="step__block">
+                  <p class="step__subtask">Каталог образовательных программ</p>
+                  <a class="step__link" href="#">Смотреть программы</a>
+                </div>
+              </div>
+              <div class="admission__step admission__step_active">
+                <div class="step__task">
+                  <div class="step__task-number"><span>3</span></div>
+                  <p class="step__task-info">Подайте документы</p>
+                </div>
+                <div class="step__block">
+                  <p class="step__subtask">
+                    Подать документы онлайн через личный кабинет абитуриента
+                  </p>
+                  <a class="step__link" href="#">Регистрация</a>
+                </div>
+              </div>
+              <div class="admission__step">
+                <div class="step__task">
+                  <div class="step__task-number"><span>4</span></div>
+                  <p class="step__task-info">
+                    Пройдите вступительные испытания
+                  </p>
+                </div>
+                <div class="step__block">
+                  <p class="step__subtask">
+                    Период сдачи вступительных испытаний
+                  </p>
+                  <p class="step__subtask-info">Очная форма обучения:</p>
+                  <p class="step__subtask-date">04.07 - 13.08</p>
+                  <p class="step__subtask-info">Очно-заочная форма обучения:</p>
+                  <p class="step__subtask-date">
+                    04.07 - 13.09 и 22.08 - 12.09
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-gradient"></div>
+      </section>
+    </main>
+    <script type="module" src="scripts/index.js"></script>
+  </body>
+</html>

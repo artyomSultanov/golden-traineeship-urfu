@@ -1,0 +1,140 @@
+#header {
+  height: 100vh;
+  width: 100%;
+  background: url(../../images/header-bg.png) top left no-repeat;
+  background-size: cover;
+}
+#header:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header__wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+.header__nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  transition: transform 0.3s ease;
+}
+
+.header__nav_hide {
+  transform: translateY(-7rem);
+  transition: transform 0.3s ease;
+}
+
+.header__nav a:before {
+  content: none;
+}
+
+.header__logo {
+  margin-left: 2%;
+  width: 8, 875rem;
+  height: 3rem;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  width: 80%;
+}
+.menu__item-link {
+  line-height: 1.375rem;
+  letter-spacing: 0em;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.menu__item-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.header__cta {
+  margin-right: 2%;
+  padding: 1.25rem 4.375rem;
+}
+
+.header__img-line {
+  position: absolute;
+  background: url(/images/line.png) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  top: 20vh;
+}
+
+.header__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header__info {
+  background: url(/images/left-gradient.png) left bottom no-repeat;
+  background-size: contain;
+  width: 40%;
+  height: 60vh;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  flex-flow: column;
+  padding-left: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.header__info h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.header__info h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header__program {
+  background: url(/images/right-gradient.png) right bottom no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 70vh;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  text-align: left;
+  align-items: end;
+  padding-right: 2.5rem;
+  padding-bottom: 5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.header__program-info {
+  text-align: left;
+}
+
+.header__program-link {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+/* custom */
+html,
+body {
+  font-family: Mont;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  font-weight: 600;
+  text-align: left;
+}
+a:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -0.3rem;
+  transition: width 0.3s ease;
+}
+a:hover:before {
+  width: 50%;
+  transition: width 0.3s ease;
+}
+
+.btn__cta {
+  padding: 20px 90px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ef302b;
+  font-size: 18px;
+  white-space: nowrap;
+  border-radius: 24px;
+}
+
+.btn__cta:hover {
+  background-color: #c0231f;
+}
